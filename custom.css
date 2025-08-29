@@ -1,0 +1,83 @@
+/* ------------------------------
+   EGYEDI KINÉZET BOOKED4.US-RA
+------------------------------ */
+
+/* Háttérszín és betűtípus */
+body {
+    background-color: #f0f8ff; /* világos, kellemes háttér */
+    font-family: 'Roboto Slab', serif;
+    color: #1a1a1a; /* alap szöveg szín */
+}
+
+/* Fejléc */
+header {
+    background-color: #0073e6; /* élénk kék */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Gombok */
+button,
+button:focus,
+button:hover {
+    background-color: #28a745; /* zöld alap */
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* Űrlapmezők */
+input,
+select,
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: var(--text-input-width);
+    font-size: 1.1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #0073e6;
+    box-shadow: 0 0 5px rgba(0, 115, 230, 0.3);
+    outline: none;
+}
+
+/* Táblázatok, naptár események */
+.fc-event {
+    background-color: #ff6600; /* narancs esemény */
+    color: white;
+    border-radius: 4px;
+    padding: 3px 5px;
+    font-size: 0.95rem;
+}
+
+.fc-daygrid-event-dot {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+/* Lábléc */
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
