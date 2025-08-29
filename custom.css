@@ -4,7 +4,7 @@
 
 /* Háttérszín és betűtípus */
 body {
-    background-color: #f0f8ff; /* világos, kellemes háttér */
+    background-color: #ae806b; /* barnás, őszies */
     font-family: 'Roboto Slab', serif;
     color: #1a1a1a; /* alap szöveg szín */
 }
@@ -80,4 +80,5 @@ footer {
     padding: 10px 0;
     text-align: center;
     font-size: 0.9rem;
+
 }
